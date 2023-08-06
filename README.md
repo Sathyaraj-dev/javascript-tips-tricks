@@ -91,3 +91,16 @@ console.log(Math.ceil(5.35)); // Expected output: 6
 The Math.floor() static method always rounds down and returns the largest integer less than or equal to a given number.
 
 console.log(Math.floor(5.35)); // Expected output: 5
+
+**parseFloat()**
+
+The parseFloat() function parses a string argument and returns a floating point number.
+
+parseFloat("401.00") // 401
+
+parseFloat("   400 50") // 40
+
+parseFloat("40 years") // 40
+
+parseFloat("H40") // NaN
+
