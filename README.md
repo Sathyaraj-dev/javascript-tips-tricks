@@ -112,4 +112,5 @@ Polyfills are pieces of code that provide modern functionality to older browsers
 **Currying In JavaScript**
 
 It is a process that allows you to transform a function with multiple arguments into a sequence of nesting functions.
+
 Example: add(1, 2, 3) into callable as add(1)(2)(3).
