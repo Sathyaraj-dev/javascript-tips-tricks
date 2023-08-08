@@ -104,3 +104,12 @@ parseFloat("40 years") // 40
 
 parseFloat("H40") // NaN
 
+**Polyfill in Javascript**
+
+Polyfills are pieces of code that provide modern functionality to older browsers that lack native support for those features. 
+
+
+**Currying In JavaScript**
+
+It is a process that allows you to transform a function with multiple arguments into a sequence of nesting functions.
+Example: add(1, 2, 3) into callable as add(1)(2)(3).
