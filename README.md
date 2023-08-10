@@ -114,3 +114,12 @@ Polyfills are pieces of code that provide modern functionality to older browsers
 It is a process that allows you to transform a function with multiple arguments into a sequence of nesting functions.
 
 Example: add(1, 2, 3) into callable as add(1)(2)(3).
+
+**Octals and Hexadecimal**
+
+Decimal literals can start with a zero (0) followed by another decimal digit, but if all digits after the leading 0 are smaller than 8, the number is interpreted as an octal number.
+
+0888 // 888 parsed as decimal 
+
+0777 // parsed as octal, 511 in decimal
+
