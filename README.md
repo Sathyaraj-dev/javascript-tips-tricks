@@ -145,3 +145,31 @@ React Components can add styling in the following ways:
 * Adding Inline Style to React Component Elements
 * Attach style property to JavaScript Style Object
 
+**Deep Copy vs Shallow Copy**
+
+In Deep copy, when we assign a variable to another variable assignment using the operator, we are actually assigning only value and both of these variables are pointing to different locations which means if I change one, then it will not get reflected in both. All primitive data types are deep copied.
+
+const a = 10
+
+let b = a // copy
+
+b = 5
+
+console.log(b) // 5
+
+console.log(a) // 10
+
+In Shallow copy, when we assign a variable to another variable using the assignment operator, We are actually assigning its reference to another variable, which means both variables point to the same memory location. If we change any of them, it will be reflected in both. All non-primitive data shallow JS types are copied.
+
+const a = {
+task: 'Hello',
+person: 'World'
+}
+
+let b = a // shallow copy
+
+b.person = 'Javascript';
+
+console. (b.person) // Javascript
+
+console.log(a.person) // Javascript
