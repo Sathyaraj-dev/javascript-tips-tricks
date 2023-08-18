@@ -173,3 +173,13 @@ b.person = 'Javascript';
 console. (b.person) // Javascript
 
 console.log(a.person) // Javascript
+
+**Eval can be harmful (no-eval). What are the Alternatives to eval in JavaScript?**
+
+`Function() is a faster and more secure alternative to eval().
+
+let operation = "2 * 5 + 10"
+
+let evaluation = Function("return " + operation)()
+
+console.log(evaluation) // logs correct result: 20
