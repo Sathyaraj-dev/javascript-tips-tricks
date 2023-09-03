@@ -136,14 +136,6 @@ A pure function is a function that consistently produces the same output for a g
 
 4️⃣ Helping in performance optimization
 
-**React Components styling**
-
-React Components can add styling in the following ways:
-
-* Add the Global Styles to the “index.html” File
-* Create a Style for Each Individual Component
-* Adding Inline Style to React Component Elements
-* Attach style property to JavaScript Style Object
 
 **Deep Copy vs Shallow Copy**
 
