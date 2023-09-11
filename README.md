@@ -124,20 +124,7 @@ Decimal literals can start with a zero (0) followed by another decimal digit, bu
 0777 // parsed as octal, 511 in decimal
 
 
-**What are pure functions in react?**
-
-A pure function is a function that consistently produces the same output for a given set of input and doesn't have any side effects, such as modifying external state or performing actions beyond computing the output which bring some advantages like 👇
-
-1️⃣ Predictable output
-
-2️⃣ Easy to reason about and refactor code
-
-3️⃣ Easy to test
-
-4️⃣ Helping in performance optimization
-
-
-**Deep Copy vs Shallow Copy**
+**Deep Copy vs. Shallow Copy**
 
 In Deep copy, when we assign a variable to another variable assignment using the operator, we are actually assigning only value and both of these variables are pointing to different locations which means if I change one, then it will not get reflected in both. All primitive data types are deep copied.
 
