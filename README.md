@@ -49,6 +49,23 @@ console.log(arr.with(2, 6)); // [1, 2, 6, 4, 5]
 
 console.log(arr); // [1, 2, 3, 4, 5]
 
+**Primitive Type vs Reference Types**
+
+Primitives:
+
+🎇 They are immutable
+
+🎇 They are compared by value
+
+🎇 They are stored in call stack
+
+Reference Types:
+
+🎆 They are Mutable
+
+🎆 They are compared by reference
+
+🎆 They are stored in Heap
 
 **General guidelines for the plus operator:**
 
