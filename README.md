@@ -67,6 +67,17 @@ Reference Types:
 
 🎆 They are stored in Heap
 
+**Imperative Programming and Declarative Programming**
+
+🔥 Imperative Programming:
+
+🎆 Describes "how" to achieve a task with explicit step-by-step instructions, often involving loops and mutable state.
+
+🔥 Declarative Programming:
+
+🎆 Describe "what" you want to achieve without specifying step-by-step instructions, relying on higher-level abstractions and expressions.
+
+
 **General guidelines for the plus operator:**
 
 var bar = true;
