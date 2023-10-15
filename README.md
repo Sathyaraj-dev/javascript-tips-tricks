@@ -190,3 +190,13 @@ let operation = "2 * 5 + 10"
 let evaluation = Function("return " + operation)()
 
 console.log(evaluation) // logs correct result: 20
+
+**What is Package.Lock.json? Should we commit to git?**
+
+- Package.Lock.json stores the exact version of any package that is being used.
+
+- Sometimes a package is updated and its version is changed so we have to store this information somewhere that all the developers have the same version of that package.
+
+- Here Package.Lock.json comes into the picture. It saves the. exact version of the package.
+
+- Yes it should be committed to Git.
