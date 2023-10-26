@@ -22,9 +22,9 @@ The nullish coalescing (??) operator is a logical operator that returns its righ
 The optional chaining ?. is a safe way to access nested object properties, even if an intermediate property doesn’t exist.  
 If the object accessed or function called using this operator is undefined or null, the expression short circuits and evaluates to undefined instead of throwing an error.
 
-const dogName = adventurer.dog?.name;
+> const dogName = adventurer.dog?.name;
 
-console.log(dogName);
+> console.log(dogName);
 
 // Expected output: undefined
 
@@ -33,9 +33,9 @@ console.log(dogName);
 
 The flat() method creates a new array with all sub-array elements concatenated:
 
-const arr1 = [0, 1, 2, [3, 4]];
+> const arr1 = [0, 1, 2, [3, 4]];
 
-console.log(arr1.flat());
+> console.log(arr1.flat());
 // Expected output: Array [0, 1, 2, 3, 4]
 
 
@@ -43,11 +43,11 @@ console.log(arr1.flat());
 
 The with() method of Array instances is the copying version of using the bracket notation to change the value of a given index. It returns a new array with the element at the given index replaced with the given value.
 
-const arr = [1, 2, 3, 4, 5];
+> const arr = [1, 2, 3, 4, 5];
 
-console.log(arr.with(2, 6)); // [1, 2, 6, 4, 5]
+> console.log(arr.with(2, 6)); // [1, 2, 6, 4, 5]
 
-console.log(arr); // [1, 2, 3, 4, 5]
+> console.log(arr); // [1, 2, 3, 4, 5]
 
 **Primitive Type vs Reference Types**
 
