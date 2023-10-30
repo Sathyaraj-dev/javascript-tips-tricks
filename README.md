@@ -80,15 +80,15 @@ Reference Types:
 
 **General guidelines for the plus operator:**
 
-var bar = true;
+>var bar = true;
 
-console.log(bar + 0); // 1
+>console.log(bar + 0); // 1
 
-console.log(bar + "xyz"); // truexyz
+>console.log(bar + "xyz"); // truexyz
 
-console.log(bar + true); // 2
+>console.log(bar + true); // 2
 
-console.log(bar + false); // 1
+>console.log(bar + false); // 1
 
 * Number + Number -> Addition,
 * Boolean + Number -> Addition,
@@ -101,36 +101,36 @@ console.log(bar + false); // 1
 
 The Math.round() static method returns the value of a number rounded to the nearest integer
 
-console.log(Math.round(0.95)); // Expected output: 1
+>console.log(Math.round(0.95)); // Expected output: 1
 
-console.log(Math.round(5.95), Math.round(5.5), Math.round(5.30)); 
+>console.log(Math.round(5.95), Math.round(5.5), Math.round(5.30)); 
 // Expected output: 6 6 5
 
 **Math.ceil()**
 
 The Math.ceil() static method always rounds up and returns the smallest integer greater than or equal to a given number.
 
-console.log(Math.ceil(.95));  // Expected output: 1
+>console.log(Math.ceil(.95));  // Expected output: 1
 
-console.log(Math.ceil(5.35)); // Expected output: 6
+>console.log(Math.ceil(5.35)); // Expected output: 6
 
 **Math.floor()**
 
 The Math.floor() static method always rounds down and returns the largest integer less than or equal to a given number.
 
-console.log(Math.floor(5.35)); // Expected output: 5
+>console.log(Math.floor(5.35)); // Expected output: 5
 
 **parseFloat()**
 
 The parseFloat() function parses a string argument and returns a floating point number.
 
-parseFloat("401.00") // 401
+>parseFloat("401.00") // 401
 
-parseFloat("   400 50") // 40
+>parseFloat("   400 50") // 40
 
-parseFloat("40 years") // 40
+>parseFloat("40 years") // 40
 
-parseFloat("H40") // NaN
+>parseFloat("H40") // NaN
 
 **Polyfill in Javascript**
 
