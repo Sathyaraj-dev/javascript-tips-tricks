@@ -147,39 +147,39 @@ Example: add(1, 2, 3) into callable as add(1)(2)(3).
 
 Decimal literals can start with a zero (0) followed by another decimal digit, but if all digits after the leading 0 are smaller than 8, the number is interpreted as an octal number.
 
-0888 // 888 parsed as decimal 
+>0888 // 888 parsed as decimal 
 
-0777 // parsed as octal, 511 in decimal
+>0777 // parsed as octal, 511 in decimal
 
 
 **Deep Copy vs. Shallow Copy**
 
 In Deep copy, when we assign a variable to another variable assignment using the operator, we are actually assigning only value and both of these variables are pointing to different locations which means if I change one, then it will not get reflected in both. All primitive data types are deep copied.
 
-const a = 10
+>const a = 10
 
-let b = a // copy
+>let b = a // copy
 
-b = 5
+>b = 5
 
-console.log(b) // 5
+>console.log(b) // 5
 
-console.log(a) // 10
+>console.log(a) // 10
 
 In Shallow copy, when we assign a variable to another variable using the assignment operator, We are actually assigning its reference to another variable, which means both variables point to the same memory location. If we change any of them, it will be reflected in both. All non-primitive data shallow JS types are copied.
 
-const a = {
-task: 'Hello',
-person: 'World'
-}
+>const a = {
+>task: 'Hello',
+>person: 'World'
+>}
 
-let b = a // shallow copy
+>let b = a // shallow copy
 
-b.person = 'Javascript';
+>b.person = 'Javascript';
 
-console. (b.person) // Javascript
+>console. (b.person) // Javascript
 
-console.log(a.person) // Javascript
+>console.log(a.person) // Javascript
 
 **Eval can be harmful (no-eval). What are the Alternatives to eval in JavaScript?**
 
