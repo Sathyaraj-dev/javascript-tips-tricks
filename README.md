@@ -185,11 +185,11 @@ In Shallow copy, when we assign a variable to another variable using the assignm
 
 `Function() is a faster and more secure alternative to eval().
 
-let operation = "2 * 5 + 10"
+> let operation = "2 * 5 + 10"
 
-let evaluation = Function("return " + operation)()
+> let evaluation = Function("return " + operation)()
 
-console.log(evaluation) // logs correct result: 20
+> console.log(evaluation) // logs correct result: 20
 
 **What is Package.Lock.json? Should we commit to git?**
 
