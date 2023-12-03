@@ -1,5 +1,9 @@
 # javascript-tips-tricks
 
+**How JS Works even if the file is empty**
+
+The shortest code in Js is an empty file. Even if the file is empty, a Global Execution Context is created along with a global object
+
 **Nullish coalescing operator (??)**
 
 The nullish coalescing (??) operator is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand. 
