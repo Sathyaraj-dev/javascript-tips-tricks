@@ -204,3 +204,9 @@ In Shallow copy, when we assign a variable to another variable using the assignm
 - Here Package.Lock.json comes into the picture. It saves the. exact version of the package.
 
 - Yes it should be committed to Git.
+
+**Difference between package.json and package-lock.json**
+
+ - The package.json file focuses on project metadata and specifies the desired versions of dependencies.
+   
+ - The package-lock.json file ensures deterministic installations by locking the exact versions of dependencies and their dependencies. 
