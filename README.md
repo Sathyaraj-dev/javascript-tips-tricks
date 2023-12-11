@@ -187,7 +187,7 @@ In Shallow copy, when we assign a variable to another variable using the assignm
 
 **Eval can be harmful (no-eval). What are the Alternatives to eval in JavaScript?**
 
-`Function() is a faster and more secure alternative to eval().
+Function() is a faster and more secure alternative to eval().
 
 > let operation = "2 * 5 + 10"
 
