@@ -209,4 +209,9 @@ Function() is a faster and more secure alternative to eval().
 
  - The package.json file focuses on project metadata and specifies the desired versions of dependencies.
    
- - The package-lock.json file ensures deterministic installations by locking the exact versions of dependencies and their dependencies. 
+ - The package-lock.json file ensures deterministic installations by locking the exact versions of dependencies and their dependencies.
+
+**map() vs forEach()**
+
+- The map() method returns a new array, whereas the forEach() method does not return a new array. 
+- The map() method is used to transform the elements of an array, whereas the forEach() method is used to loop through the elements of an array.
