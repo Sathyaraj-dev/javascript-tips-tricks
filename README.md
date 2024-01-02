@@ -215,3 +215,9 @@ Function() is a faster and more secure alternative to eval().
 
 - The map() method returns a new array, whereas the forEach() method does not return a new array. 
 - The map() method is used to transform the elements of an array, whereas the forEach() method is used to loop through the elements of an array.
+
+  
+**Rest parameters and Spread operators in javascript**
+
+- Rest parameters are used to create functions that accept any number of arguments. 
+- The spread syntax is used to pass an array to functions that normally require a list of many arguments.
