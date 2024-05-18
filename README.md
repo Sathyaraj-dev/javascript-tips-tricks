@@ -221,3 +221,8 @@ Function() is a faster and more secure alternative to eval().
 
 - Rest parameters are used to create functions that accept any number of arguments. 
 - The spread syntax is used to pass an array to functions that normally require a list of many arguments.
+
+**Authentication vs. Authorization**
+
+- Authentication is about making sure the user is who they say they are. You're proving your identity with something you have like a username and password.
+- Authorization is the next step. Once a user's identity is confirmed, authorization decides what parts of the application they are allowed to use.
